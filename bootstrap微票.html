@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>微票儿</title>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+       .navbar{
+           height: 70px;
+       }
+        .navbar-header a{
+padding-top: 0px;
+        }
+        .navbar-nav{
+            margin-top: 10px;
+        }
+        .navbar-right{
+            margin-top: 20px;
+        }
+        .col-md-2{
+            padding-top: 0px;
+        }
+        .one  {
+            color: white;
+        }
+        .btn-danger{
+            margin-top: 10px;
+        }
+        .two{
+            margin-top: 70px;
+            padding: 0;
+            width: 100%;
+            height: 500px;
+            background-image: url("image/bannerbg.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .three{
+            margin-top: 50px;
+            margin-left:100px;
+
+        }
+        .col-md-2{
+            height: 300px;
+            background-color:white;
+            margin-top: 50px;
+
+        }
+        .col-md-2 a{
+            line-height: 23px;
+        }
+
+        .col-md-2 h4{
+            padding-left: 20px;
+        }
+.rowb a{
+   margin-left: 20px;
+}
+.rowa{
+    border-bottom: 1px dashed gainsboro;
+}
+        .rowa a{
+            padding-left: 20px;
+
+        }
+        .rowa img{
+            margin-left: 20px;
+        }
+        a:hover{
+            color: green;
+        }
+        .four{
+            height: 500px;
+        }
+        .col-md-3{
+            border: 1px solid gainsboro;
+            height: 280px;
+            margin-top: 50px;
+            margin-left: 10px;
+
+        }
+        .col-md-3 h6{
+            line-height: 30px;
+            padding-left: 20px;
+        }
+        .row4 img{
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .row4 {
+            border-bottom: 1px dashed gainsboro;
+
+        }
+        .photo{
+            height: 200px;
+            background-image: url("image/ad1.jpg");
+            background-repeat: no-repeat;
+            margin-top: 15px;
+            /*background-size: cover;*/
+        }
+        .row5{
+            height: 800px;
+
+        }
+        .row5 span{
+            color: green;
+            font-size: 24px;
+        }
+        .row5-a{
+           margin-top: 50px;
+            padding: 0;
+        }
+        /*.row5 div{*/
+            /*padding: 0;*/
+        /*}*/
+        .row5-right{
+            height: 50px;
+            background-color: darkseagreen;
+        }
+    </style>
+</head>
+<body>
+<script src="jquery-1.10.2.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<!--导航条-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="image/logoMsg.png" />
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="#">全国<span class="sr-only">(current)</span></a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">演出<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">演出票</a></li>
+                        <li><a href="#">场馆</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">电影</a></li>
+                <li><a href="#">我的微票</a></li>
+                <button class="btn btn-xs btn-danger">new</button>
+            </ul>
+            <form class="navbar-form navbar-right">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="请输入要搜索的内容">
+                </div>
+                <button type="submit" class="btn btn-default">搜索</button>
+                <button class="btn btn-link one">登录</button>
+                <button class="btn btn-link one">注册</button>
+            </form>
+
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container-fluid two">
+    <div class="row"> 
+    <div class="col-md-8 three">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="image/1.jpg">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/2.jpg">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/3.jpg">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/4.jpg">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+<div class="row rowa">
+    <h4 class="h4">特惠看</h4>
+    <img src="image/img1.jpg"/>
+    <h6><a href="">[苏州]2016迷笛电子音乐节（预售）</a></h6>
+    <h6><a href="">穿着花裤子喝着小酒通宵达旦</a></h6>
+    </div>
+    <div class="row rowb">
+        <h6><a href="#">2016刘若英世界巡回演唱会</a></h6>
+        <h6><a href="#">[上海]百老汇经典音乐剧-《狮子王》</a></h6>
+    </div>
+</div>
+
+    </div>
+    </div>
+<!--第三块-->
+<div class="container four">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="thumbnail">
+                <img src="image/5.jpg">
+                <div class="caption">
+                    <p>[上海]百老汇经典音乐剧《狮子王》</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="col-md-2">
+            <div class="thumbnail">
+                <img src="image/6.jpg">
+                <div class="caption">
+                    <p>[北京]陈奕迅 ANOTHER EASON'S LIFE演唱会北京站</p>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="col-md-2 ">
+        <div class="thumbnail">
+            <img src="image/7.jpg">
+            <div class="caption">
+                <p>[深圳]逃跑计划2016巡回演唱会深圳站</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="col-md-2">
+        <div class="thumbnail">
+            <img src="image/8.jpg">
+            <div class="caption">
+                <p>[北京]BJCC北京漫控潮流博览会</p>
+            </div>
+        </div>
+    </div>
+
+
+
+        <div class="col-md-3">
+            <div class="row">
+                <div>
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">首页</a></li>
+                        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">技能课</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row row4">
+                <img src="image/img2.jpg"width="250px"height="100px"/>
+                <h6 class="h6"><a href="#">[哈尔滨]梁静茹 你的名字是爱情演唱会</a></h6>
+            </div>
+            <div class="row">
+                <h6 class="h6"><a href="#">[太原]蔡依林2016play世界巡回演唱会</a></h6>
+            </div>
+        </div>
+</div>
+    <!--中间图片区域-->
+    <div class="container photo"></div>
+    <!--第四块-->
+    <div class="container row5">
+        <div class="row">
+            <div class="col-md-8">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">演唱会</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">体育赛事</a></li>
+                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">舞台剧</a></li>
+                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">儿童亲子</a></li>
+                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">音乐会</a></li>
+                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">展览活动</a></li>
+                </ul>
+                <!--第一排缩略图-->
+            <div class="row">
+            <div class="col-md-2 row5-a">
+                <div class="thumbnail">
+                    <img src="image/9.jpg">
+                    <div class="caption">
+                        <p>[苏州]2016迷笛电子音乐节</p>
+                        <p><span>180</span>元起</p>
+                </div>
+                </div>
+            </div>
+
+
+        <div class="col-md-2 row5-a">
+            <div class="thumbnail">
+                <img src="image/10.jpg">
+                <div class="caption">
+                    <p>[深圳]逃跑计划2016巡回演唱会深圳站</p>
+                    <p><span>180</span>元起</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    <div class="col-md-2 row5-a">
+        <div class="thumbnail">
+            <img src="image/11.jpg">
+            <div class="caption">
+                <p>[北京]陈奕迅 ANOTHER EASON'S LIFE演唱会北京站</p>
+                <p><span>380</span>元起</p>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="col-md-2 row5-a">
+    <div class="thumbnail">
+        <img src="image/12.jpg">
+        <div class="caption">
+            <p>[青岛]周杰伦2016世界巡回演唱会青岛站(即将开售)</p>
+            <p><span>380</span>元起</p>
+        </div>
+    </div>
+</div>
+</div>
+
+        <!--第二排缩略图-->
+
+
+        <div class="row">
+            <div class="col-md-2 row5-a">
+                <div class="thumbnail">
+                    <img src="image/13.jpg">
+                    <div class="caption">
+                        <p>[太原]周杰伦2016世界巡回演唱会太原站(预售) 280元起</p>
+                        <p><span>280</span>元起</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-2 row5-a">
+                <div class="thumbnail">
+                    <img src="image/14.jpg">
+                    <div class="caption">
+                        <p>[太原]2016 李荣浩「有 理想」世界巡回演唱会-太原站</p>
+                        <p><span>280</span>元起</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="col-md-2 row5-a">
+                <div class="thumbnail">
+                    <img src="image/15.jpg">
+                    <div class="caption">
+                        <p>[深圳]徐佳莹“日全蚀”深圳演唱会</p>
+                        <p><span>280</span>元起</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-2 row5-a">
+                <div class="thumbnail">
+                    <img src="image/16.jpg">
+                    <div class="caption">
+                        <p>[太原]2016刘若英"Renext 我敢"世界巡回演唱会太原站</p>
+                        <p><span>380</span>元起</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        <div class="col-md-3"></div>
+    </div>
+
+<script>
+    $('.carousel').carousel({
+        interval:3000
+    })
+
+</script>
+</body>
+</html>

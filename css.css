@@ -1,0 +1,322 @@
+
+*{margin: 0;
+    padding: 0;
+
+}
+.top{
+    height: 50px;
+    background-color: gray;
+    /*padding-top: 2px;*/
+}
+ .aa:hover{
+    width: 50px;
+    height: 50px;
+    background-color: #080808;
+
+}
+ .top span{
+     color: white;
+ }
+ .aa{
+     width: 50px;
+     height: 50px;
+     color: white;
+   text-align: center;
+ }
+/*导航*/
+.two{
+background-color: black;
+    width: 100%;
+    height: 70px;
+  /*padding-top: 20px;*/
+    color: white;
+    padding-left: 200px;
+    line-height: 100px;
+}
+li{
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    padding-top: 0px;
+}
+.btn link {
+    width: 50px;
+    height: 50px;
+}
+.navbar-right{
+    margin-top: 10px;
+}
+li:hover{
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+    background-color: #cfb3ff;
+}
+
+/*第三块*/
+.three{
+    height: 800px;
+    background-color: #080808;
+}
+.three-a span{
+    padding-top: 50px;
+    color: white;
+    padding-left: 30px;
+}
+.three p{
+    color: gray;
+    padding-top: 50px;
+}
+/*第四块*/
+.four{
+
+color: forestgreen;
+    margin-top: 50px;
+}
+.row-four{
+    margin-top: 400px;
+    /*height: 400px;*/
+    background-color: #080808;
+    position: relative;
+}
+
+.imgaa{
+    background-color: forestgreen;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    position: absolute;
+    top:-300px;
+    left: 250px;
+}
+.p1{
+    position: absolute;
+    top:-300px;
+    left:400px;
+    color: white;
+    font-size: 20px;
+}
+.p2 span{
+    color: yellow;
+}
+
+
+ .p2 {
+  color: white;
+    position: absolute;
+    left:400px;
+    top:300px;
+     font-size: 20px;
+}
+.rowrow{
+    position: absolute;
+    left: 50px;
+    top:450px;
+}
+ h4,h6{
+     color: white;
+ }
+ .four span{
+     font-size: 24px;
+
+ }
+ /*第五块*/
+.five{
+    height: 800px;
+}
+
+.five h3{
+    color: forestgreen;
+    line-height: 100px;
+}
+.man{
+    height: 350px;
+
+    padding-left: 0;
+    /*background-color: black;*/
+}
+.man img{
+
+    background-size: cover;
+}
+.woman{
+    height: 350px;
+    padding-left: 0;
+    /*background-color: #1b6d85;*/
+}
+.oldwoman{
+    padding-left: 0;
+    height: 200px;
+    /*background-color: #080808;*/
+    margin-top: 10px;
+}
+.oldman{
+    margin-left: 50px;
+    height: 200px;
+    /*background-color: #1b6d85;*/
+    margin-top: 10px;
+
+}
+.soucha{
+    margin-top: 10px;
+    padding-left: 0;
+  height: 200px;
+    background-color: pink;
+
+}
+.soucha img{
+    margin: 0 auto;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+/*第六块*/
+.computer{
+    margin-left: 100px;
+}
+.gezi {
+    /*height: 100px;*/
+    background-color: pink;
+    height: 200px;
+    margin: 0 auto;
+}
+.gezi div:nth-child(1){
+    height: 100px;
+}
+.gezi div:nth-child(2){
+    background-color: hotpink;
+    height: 100px;
+}
+.gezi div:nth-child(3){
+    height: 100px;
+}
+.gezi-a div:nth-child(2){
+    background-color: pink;
+}
+.pp{
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+/*第七块*/
+.seven{
+    height: 600px;
+    color: gray;
+}
+.seven-a{
+padding-top: 50px;
+}
+.seven-a h4{
+    color: black;
+}
+.seven-a h6{
+    color: gray;
+}
+/*第八块*/
+/*.eight{*/
+    /*/!*height: 800px;*!/*/
+    /*/!*background-color: #1b6d85;*!/*/
+/*}*/
+.dad{
+    margin-left: 100px;
+    margin-top: 100px;
+    position: relative;
+    /*height: 500px;*/
+    z-index: 2;
+}
+.dad img{
+    margin-left: 150px;
+
+}
+.son{
+    width: 100%;
+    background-color: forestgreen;
+    height: 500px;
+    position: absolute;
+    top:4700px;
+    z-index: 1;
+}
+.son-1{
+    position: absolute;
+    top:300px;
+    left: 150px;
+
+}
+.son-1 h3{
+    color: white;
+}
+.hand{
+    height: 800px;
+    background-image: url("image/bg2.jpg");
+    background-size: cover;
+    background-color: #122b40;
+}
+/*9块*/
+.nine div{
+    margin-top:50px;
+}
+.nine h3{
+    color: forestgreen;
+}
+.nine h5{
+    margin-top: 30px;
+    color:gray;
+}
+.nine h6{
+    color: gray;
+}
+.nine h4{
+    color: black;
+}
+/*第十*/
+.ten{
+    background-image: url("image/bg3.jpg");
+background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+.ten h2{
+    color: forestgreen;
+    margin-top: 70px;
+}
+.ten img{
+    margin-top: 50px;
+
+}
+.ten div{
+    margin-top: 30px;
+}
+.box{
+    width: 200px;
+    height: 20px;
+    background-color: gray;
+    color: black;
+    margin-left: 40px;
+}
+/*第十一块*/
+.eleven h3{
+    color: forestgreen;
+}
+.eleven h5{
+    color: gray;
+}
+.ele-a{
+    height: 300px;
+
+}
+.eleven h6{
+    color: gray;
+}
+.haha {
+    height: 250px;
+    margin-top: 50px;
+    padding-top: 50px;
+    border: 1px dashed green;
+    padding-left: 0;
+}
+/*底部*/
+.footer{
+height: 800px;
+    background-image:url("image/bg.png") ;
+    margin-top: 100px;
+}
